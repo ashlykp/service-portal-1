@@ -1,0 +1,14 @@
+{
+   
+    "AuthInfo":{
+    "loginUrl": "https://10.197.0.55/oauth2/authorize",
+    "redirectUri": "http://localhost:4200/user-management",
+    "clientId": "w2OXvcmTmL16h3AyAEmDUpEFKKca",
+    "responseType": "id_token token",
+    "scope": "openid",
+    "strictDiscoveryDocumentValidation": false,
+    "oidc": true,
+    "postLogoutRedirectUri" :"https://10.197.0.55/oauth2/authorize"
+  }
+}
+

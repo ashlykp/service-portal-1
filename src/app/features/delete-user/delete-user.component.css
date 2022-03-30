@@ -1,0 +1,48 @@
+.toolbar {
+    background-color: rgb(139, 1, 1);
+    height: 42px;
+    width: 601px;
+    margin-left: -25px;
+    margin-top: -24px;
+}
+
+.heading {
+    margin-left: 11px;
+    color: white;
+    font-size: small;
+    margin-top: 16px;
+}
+
+.delete-img {
+    height: 100px;
+    margin-top: 26px;
+    margin-left: 28px;
+    
+}
+
+.message {
+    margin-top: -7vw;
+    margin-left: 19vw;
+    font-size: 12px;
+}
+
+.delete-icon {
+    margin-left: 15vw;
+    color: white;
+    font-size: 21px;
+}
+
+.yes-btn {
+    margin-top: 44px;
+    margin-left: 18px;
+    border: none;
+    width: 237px;
+    height: 30px;
+}
+
+.no-btn {
+    border: none;
+    margin-left: 20px;
+    width: 255px;
+    height: 30px;
+}

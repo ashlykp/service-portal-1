@@ -1,0 +1,68 @@
+.searchBox {
+    margin-left: 56vw;
+}
+#searchKey {
+    border-radius: 1.25rem;
+}
+
+.users-list {
+    margin-top: 2vw;
+    /*background-color: #ecedee;*/
+}
+
+/*Header*/
+.id {
+    margin-left: 7vw;
+    font-size: 13px;
+}
+.name {
+    margin-left: 7vw;
+    font-size: 13px;
+}
+.apikey {
+    margin-left: 8vw;
+    font-size: 13px;
+}
+.email {
+    margin-left: 8vw;
+    font-size: 13px;
+}
+.phone {
+    margin-left: 8vw;
+    font-size: 13px;
+}
+.license {
+    margin-left: 7vw;
+    font-size: 13px;
+}
+.delete {
+    margin-left: 7vw;
+    font-size: 13px;
+}
+
+/*userslist*/
+.license-btn {
+    margin-left: 57vw;
+    background-color: white;
+    border: none;
+}
+.delete-btn {
+    margin-left: 7vw;
+    border: none;
+    background-color: white;
+}
+
+.profile-icon {
+    color:rgb(136, 155, 163); 
+    margin-left: 2vw; 
+    font-size: 26px;
+}
+
+.card {
+    margin-top: 39px; 
+    height: 606px; 
+    width: 81vw; 
+    margin-left: 18vw; 
+    box-shadow: 0 0 30px rgb(238, 238, 238); 
+    border-radius: 1.25rem;
+}

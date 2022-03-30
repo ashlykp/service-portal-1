@@ -1,0 +1,43 @@
+
+<div class="card">
+
+    <div class="searchBox">
+        <input  type="text" [(ngModel)]="searchValue"  id="searchKey" class="form-control" placeholder="Search Users" />
+    </div>
+
+    <div>
+        <ul class="users-list">
+            <div>
+                <span class="id"> <b> User Id </b> </span>
+                <span class="name"> <b> Username </b> </span>
+                <span class="apikey"> <b> API Key </b> </span>
+                <span class="email"> <b>Email </b> </span>
+                <span class="phone"> <b> Phone </b> </span>
+                <span class="license"> <b>License </b> </span>
+                <span class="delete">  <b> Delete </b> </span>
+                <hr>
+            </div>
+            
+            <li>
+                
+                <input type="checkbox" >
+                <mat-icon class="profile-icon">account_circle</mat-icon>
+                <button class="license-btn"><mat-icon style="color: rgb(95, 115, 139);">description</mat-icon></button>
+                <button class="delete-btn" (click)="openDeleteUser()"> <mat-icon style="color: rgb(155, 0, 0);"> delete </mat-icon> </button>
+                <hr>
+
+            <!-- <input type="checkbox" [(ngModel)]="item.checked" (change)="changeCheckbox($event)">{{ item.users }}
+                <span class="user-id"> {{user.id}} </span>
+                <span class="user-name"> {{user.name}} </span>
+                <span class="user-api"> {{user.key}} </span>
+                <span class="user-mail"> {{user.emailId}} </span>
+                <span class="user-phoneNo"> {{user.phone}} </span>
+                <button> <mat-icon> </mat-icon> </button>
+                <button> <mat-icon> delete </mat-icon> </button> 
+            -->
+            </li>
+    
+        </ul>
+        <!--<pagination-controls (pageChange)="pageChanged($event)" class="pagination"></pagination-controls>-->
+    </div>
+</div>

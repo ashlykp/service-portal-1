@@ -1,0 +1,52 @@
+<mat-toolbar class="toolbar">
+    <mat-toolbar-row style="background-color: #144b74">
+
+        <mat-icon class="create-icon">people</mat-icon>
+        <span style="color: white; font-size: 13px; margin-left: 1vw;">Add New User</span>
+        <button class="close-btn" [mat-dialog-close]="true">
+            <mat-icon style="color: white;"> close </mat-icon>
+        </button>
+
+    </mat-toolbar-row>
+</mat-toolbar>
+
+<hr style="margin-top: 4px; width: 107%; margin-left: -2vw;">
+
+<div style="background-color: #cfd5d9; height: 41px;">
+
+    <span class="demo-details"> <b> Demographic Details </b> </span>
+
+</div>
+
+<div class="card">
+
+    <div class="input-icons">
+        <label class="username"> Username: </label>
+        &nbsp;&nbsp;
+        <i class="fa fa-user icon"></i> &nbsp;
+        <input class="input-field" type="text" placeholder=" Enter username"
+            style="color: rgb(138, 138, 138); border-color: rgb(175, 164, 164);">
+
+        <label class="prov-name"> Provider Name: </label>
+        &nbsp;&nbsp;
+        <i class="fa fa-user icon"></i> &nbsp;
+        <input class="input-field" type="text" placeholder=" Enter name"
+            style="border-color: rgb(198 196 196); margin-left: -5px; width: 213px;">
+
+        <label class="phone"> Phone: </label>
+        &nbsp;&nbsp;
+        <i class="fa fa-phone icon"></i> &nbsp;
+        <input class="input-field" type="text" placeholder=" Enter phoneNo."
+            style="width: 15vw; border-color: rgb(209, 209, 209);">
+
+        <label class="email"> Email: </label>
+        &nbsp;&nbsp;
+        <i class="fa fa-envelope-o icon"></i> &nbsp;
+        <input class="input-field" type="text" placeholder=" Enter email Id" style="border-color: rgb(209, 209, 209);">
+    </div>
+
+    <button class="add-btn">
+        <mat-icon class="add-btn-icon">add_circle</mat-icon>
+    </button>
+
+</div>

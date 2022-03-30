@@ -1,0 +1,96 @@
+.toolbar {
+    width: 807px;
+    margin-left: -2vw;
+    margin-top: -2vw;
+}
+
+.create-icon {
+    color: white; 
+    margin-left: 20vw;
+}
+
+.demo-details {
+    font-size: 14px; 
+    margin-left: 1vw; 
+    color: #385c7e;
+}
+
+.allocate-btn {
+    margin-top: 5px; 
+    font-size: 11px; 
+    color: white; 
+    height: 2vw; 
+    width: 101px; 
+    margin-left: 486px; 
+    background-color: rgb(140, 141, 143);
+    border: none;
+}
+
+.close-btn {
+    margin-left: 20vw;
+    background-color: #144b74;
+    width: 3vw;
+    border: none;
+    margin-top: 16px;
+}
+
+.card {
+    background-color: #fafafa; 
+    margin-top: 1vw; 
+    box-shadow:1px 1px 30px rgb(213, 219, 221);
+    height: 22vw;
+}
+
+.input-field {
+    border-color: rgb(150 155 159);
+    font-size: 13px;
+    width: 14vw;    
+    border-top-color: aliceblue;
+    
+}
+
+.input-field:focus {
+    outline:solid 1px rgb(207, 207, 207);
+}
+
+.username {
+    font-size: small; 
+    font-weight: bold; 
+    color: #356294; 
+    margin-left: 1vw; 
+    margin-top: 4vw;
+}
+
+.prov-name {
+    font-size: small; 
+    font-weight: bold; 
+    color: #356294; 
+    margin-left: 2vw; 
+    margin-top: 3vw;
+}
+
+.phone {
+    font-size: small; 
+    font-weight: bold; 
+    color: #356294; 
+    margin-left: 2vw; 
+    margin-top: 5vw;
+}
+
+.email {
+    font-size: small; 
+    font-weight: bold; 
+    color: #356294; 
+    margin-left: 5vw; 
+    margin-top: 5vw;
+}
+
+.save-btn {
+    color: white; 
+    height: 2vw; 
+    margin-top: 5vw; 
+    width: 6vw; 
+    margin-left: 22vw; 
+    background-color: rgb(6, 89, 138); 
+    border: none;
+}

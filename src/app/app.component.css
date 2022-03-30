@@ -1,0 +1,70 @@
+
+
+.app-name{
+  float: right;
+  color: #000000 !important;
+  font-family: "Calibri";
+  font-size: 14px;
+}
+
+.dashboard{
+  font-family: "Georgia";
+  /* font-family: "Georgia"; */
+  font-stretch: expanded;
+  font-size: 22px;
+  font-weight: bold;
+  color :#ffff;
+}
+.ec{
+  font-family: "Brush Script MT";
+  font-stretch: expanded;
+  font-size: 27px;
+  font-weight: bold;
+  color :#ffff;
+}
+.container-fluid {
+  /* maxwidth: 1370px; */
+  /* background-color: #74A1F6; */
+  /* background-color: #ADD8E6; */
+  background-color: #ffffff;
+}
+.bg-info {
+  /* background-color: #2B59B2 !important; */ 
+  /* background-color: #74A1F6 !important;     */
+  background-color: #659dbd !important;
+}
+#user-icon {    
+  background-image: url('src/assets/images/user-icon.png');
+  width: 32px !important;
+  height: 32px !important;
+  display: inline-block;
+  margin: 5px 0 0 0 !important;
+  cursor: pointer;
+}
+.submenu {
+  position: absolute;
+  list-style-type: none;
+  padding: 0;
+  width: 145px;
+  /* background-color: #659dbd; */
+  background-color: #cccccc;
+  margin: 19px 0 0 0;
+  right: 0px;
+  z-index: 9999;
+}
+.hide-user-submenu {
+  visibility: hidden;
+}
+.user-name {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+.copyright {
+  font-size: 14px;
+}
+
+.nav-link {
+  color: #ffffff !important;
+}

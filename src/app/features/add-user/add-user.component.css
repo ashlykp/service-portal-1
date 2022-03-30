@@ -1,0 +1,89 @@
+.toolbar {
+    width: 807px;
+    margin-left: -2vw;
+    margin-top: -2vw;
+}
+
+.create-icon {
+    color: white; 
+    margin-left: 20vw;
+}
+
+.demo-details {
+    font-size: 14px; 
+    margin-left: 1vw; 
+    color: #385c7e;
+}
+
+.card {
+    background-color: #fafafa; 
+    margin-top: 1vw; 
+    box-shadow:1px 1px 30px rgb(213, 219, 221);
+    height: 22vw;
+}
+
+.input-field {
+    border-color: rgb(150 155 159);
+    font-size: 13px;
+    width: 14vw;    
+    border-top-color: aliceblue;
+    
+}
+
+.input-field:focus {
+    outline:solid 1px rgb(207, 207, 207);
+}
+
+.username {
+    font-size: small; 
+    font-weight: bold; 
+    color: #356294; 
+    margin-left: 1vw; 
+    margin-top: 4vw;
+}
+
+.prov-name {
+    font-size: small; 
+    font-weight: bold; 
+    color: #356294; 
+    margin-left: 2vw; 
+    margin-top: 3vw;
+}
+
+.phone {
+    font-size: small; 
+    font-weight: bold; 
+    color: #356294; 
+    margin-left: 2vw; 
+    margin-top: 5vw;
+}
+
+.email {
+    font-size: small; 
+    font-weight: bold; 
+    color: #356294; 
+    margin-left: 5vw; 
+    margin-top: 5vw;
+}
+
+.add-btn {
+    border: none;
+    margin-top: 4vw;
+    background-color: #fafafa;
+    width: 4vw;
+    margin-left: 35vw;
+}
+
+.add-btn-icon {
+    font-size: 60px;
+    margin-top: -1vw;
+    color: #106397;
+}
+
+.close-btn {
+    margin-left: 20vw;
+    background-color: #144b74;
+    width: 3vw;
+    border: none;
+    margin-top: 16px;
+}

@@ -1,0 +1,24 @@
+<mat-toolbar style="min-height: 31px;">
+    <mat-toolbar-row class="tool-bar">
+
+        <span class="heading">Deauthorize User?</span>
+
+    </mat-toolbar-row>
+</mat-toolbar>
+
+<mat-icon class="warning-icon">report_problem</mat-icon>
+<p class="warn-msg"> Deauthorized user will not have access right to any <br> of the functionalities. </p>
+
+<div class="card">
+
+    <label class="user-name"> Username </label>
+
+    <input type="text" class="input-uname" placeholder="Enter username">
+    <input type="checkbox" class="check-box"> <label class="check-label"> Deauthorize user</label>
+
+</div>
+
+<img src="../../../assets/images/Deauthorize.svg" class="deauthorize-img">
+
+<button class="confirm-btn"> Confirm </button>
+<button class="cancel-btn" [mat-dialog-close]="true"> Cancel </button>

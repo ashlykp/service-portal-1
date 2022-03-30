@@ -1,0 +1,56 @@
+<router-outlet></router-outlet>
+
+<mat-toolbar>
+    <mat-toolbar-row style="height: 3vw; background-color: #144b74;">
+
+        <p id="heading"> DCAR Algorithm Service Portal </p>
+
+        <a class="link1" routerLink="/algo-deployment" onmouseout="this.style.textDecoration = 'none'"
+            onmouseover="this.style.textDecoration = 'underline'"> Algorithm Deployment </a>
+        <a class="link2" routerLink="/service" onmouseout="this.style.textDecoration = 'none'"
+            onmouseover="this.style.textDecoration = 'underline'"> Service </a>
+        <a class="link3" routerLink="/billing" onmouseout="this.style.textDecoration = 'none'"
+            onmouseover="this.style.textDecoration = 'underline'"> Billing </a>
+
+        <mat-icon style="color: white; margin-left: 72vw; margin-top: 26px; font-size: 16px;"> lock </mat-icon>
+        <a class="link4" routerLink="/login" onmouseout="this.style.textDecoration = 'none'"
+            onmouseover="this.style.textDecoration = 'underline'"> Logout </a>
+
+    </mat-toolbar-row>
+
+    <mat-toolbar-row class="toolbar2">
+
+        <p class="page-heading">
+            User Management </p>
+        <mat-icon style="margin-left: -9vw">group</mat-icon>
+
+    </mat-toolbar-row>
+
+</mat-toolbar>
+
+
+<app-userslist></app-userslist>
+
+
+<div class="card">
+
+    <label class="home-label">
+        <mat-icon class="home-icon"> home</mat-icon>
+        <p class="home-heading"> Home </p>
+    </label>
+    <mat-icon class="menu-icon">menu</mat-icon>
+
+    <button id="btn1" (click)="openAddUser()">
+        <mat-icon style="color: rgb(69, 94, 117)"> group_add </mat-icon>
+    </button>
+
+    <button id="btn2" (click)="openEditUser()">
+        <mat-icon style="color: rgb(69, 94, 117)"> edit </mat-icon>
+    </button>
+
+    <button id="btn3" (click)="openDeauthorizeUser()">
+        <mat-icon style="color: rgb(69, 94, 117)"> block </mat-icon>
+        <mat-icon class="person-icon"> person_outline </mat-icon>
+    </button>
+
+</div>

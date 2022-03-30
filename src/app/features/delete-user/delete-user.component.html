@@ -1,0 +1,26 @@
+<mat-toolbar>
+    <mat-toolbar-row class="toolbar">
+        <mat-icon class="delete-icon"> delete </mat-icon>
+        <p class="heading"> Delete User ? </p>
+    </mat-toolbar-row>
+</mat-toolbar>
+
+<img src="../../../assets/images/Delete User.svg" class="delete-img">
+
+<div class="message">
+    <p> <b> Deleting the  user will : </b> </p>
+    
+    <ul>
+        <li>
+            <b>Delete all data </b>related to the user.
+        </li>
+        <li>
+            <b>Delete all files </b>attached to the user.
+        </li>
+    </ul>
+    
+</div>
+<button class="yes-btn">Yes</button>
+<button class="no-btn" [mat-dialog-close]="true"> No </button>
+
+

@@ -1,0 +1,14 @@
+apiVersion: ees.ge.com/v1
+kind: ApplicationRegistration
+metadata:
+  name: dcar
+  namespace: dcar
+spec:
+  appName: "dcar"
+  displayName: "DcarAlgoServer"
+  description: "dcar"
+  callbackUrls:
+    - "http://localhost:4200/user-management"
+  grantTypes:
+    - authorization_code
+    - implicit
